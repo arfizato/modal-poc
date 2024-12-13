@@ -25,7 +25,7 @@ import GiftIcon from "@/lib/assets/images/Gift.svg";
 import Banner from "@/lib/assets/images/Banner.png";
 import Telegram from "@/lib/assets/images/Telegram.svg";
 
-export function DrawerDialogDemo() {
+export function ResponsiveDrawer() {
 	const [open, setOpen] = React.useState(false);
 	// const isDesktop = useMediaQuery("(min-width: 768px)");
 	const isMobile = useIsMobile();
